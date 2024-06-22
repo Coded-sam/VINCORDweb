@@ -1,0 +1,76 @@
+body {
+background-image: url('VINCORDbackground.jpg');
+background-size: cover;
+background-position: center;
+}
+header {
+  background-color: #333333; /* dark gray */
+  color: #333333; /* white */
+  padding: 30px;
+  text-align: center;
+}
+
+nav {
+  background-color: #4D4DFF; /* sky blue */
+  color: #ffffff; /* yellow */
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style:Global style ;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  3-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #ffffff; /* white */
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #cccccc; /* light gray */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  background-color: #ffffff; /* white */
+  padding: 20px;
+ border-bottom-left-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333333; /* dark gray */
+}
+
+p {
+  color: #666666; /* gray */
+}
+
+button {
+  background-color: #4D4DFF; /* dark gray */
+  color: #ffffff; /* white */
+  padding: 10px 20px;
+  border: none;
+  border-bottom-right-radius: : 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4D4DFF; /* darker gray */
+}
+
